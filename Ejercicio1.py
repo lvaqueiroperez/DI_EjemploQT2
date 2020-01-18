@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import (QWidget, QLabel, QLineEdit, QTextEdit, QGridLayout, QApplication, QPushButton,QSizePolicy)
 import sys
 
+#EJERCICIO PARA PRACTICAR LA COLOCACIÓN DE ELEMENTOS EN UN GRID:
 
 class Aplication(QWidget):
     def __init__(self):
@@ -13,9 +14,9 @@ class Aplication(QWidget):
         btn5 = QPushButton("Boton5")
         btn6 = QPushButton("Boton6")
         #PARA QUE FUNCIONE CORRECTAMENTE DE ESTA MANERA, AÑADIR MINIMUN HEIGHTS O WITHS
-        #btn3.setMinimumHeight(55)
+        btn3.setMinimumHeight(55)
         #O ESTO:
-        btn3.setSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
+        #btn3.setSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
 
         grid = QGridLayout()
         grid.setSpacing(10)

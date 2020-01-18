@@ -9,7 +9,7 @@ class Fiestra():
         self.ui = uic.loadUi("pruebaVentana1.ui")
         #PROBAMOS LAS SEÑALES PUESTAS DESDE QTDES, PARA ELLO COMENTAMOS ESTA
         #self.ui.btnPulsa.clicked.connect(self.on_boton_clicked)
-        #HEMOS PUESTO UNA SEÑAL DE MANERA QUE AL PULSAR EL BOTÓN SE CIERRE LA VENTANA MAIN
+        #HEMOS PUESTO UNA SEÑAL EN QTDESIGNER DE MANERA QUE AL PULSAR EL BOTÓN SE CIERRE LA VENTANA MAIN
 
         self.ui.show()
 
